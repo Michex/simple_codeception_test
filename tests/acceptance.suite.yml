@@ -1,0 +1,7 @@
+actor: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: http://www.wit.edu.pl
+            browser: chrome
+        - \Helper\Acceptance
