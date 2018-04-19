@@ -1,10 +1,10 @@
 <?php
 
 
-class CheckInvitationDataCest
+class CheckInvitationDataPositiveCest
 {
 
-    public function tryToTest(AcceptanceTester $I, \Page\IndexPage $indexPage, \Page\ContactPage $contactPage)
+    public function chceckInvitationDataPositiveTest(\Page\IndexPage $indexPage, \Page\ContactPage $contactPage)
     {
         $indexPage->goToIndexPage();
         $indexPage->clickContactBtn();

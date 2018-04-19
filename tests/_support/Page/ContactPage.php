@@ -39,5 +39,23 @@ class ContactPage
 
     }
 
+    public function checkWrongWITZOpeningTimes()
+    {
+        $I = $this->tester;
+
+        $openingTimes = array(
+            "poniedziałek" => "9:00 - 16:00",
+            "wtorek" => "9:00 - 16:00",
+            "środa" => "10:00 - 14:00",
+            "czwartek" => "10:00 - 18:00",
+            "piątek" => "nieczynne",
+            "sobota" => "8:00 - 15:00");
+
+        foreach ($openingTimes as $day => $time) {
+            $selector = sprintf(self::$witzHours, $day);
+            $I->see($time, $selector);
+        }
+    }
+
 
 }

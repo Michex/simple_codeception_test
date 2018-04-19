@@ -1,1 +1,1 @@
-tests/acceptance/CheckInvitationDataCest.php:tryToTest
+tests/acceptance/CheckInvitationDataNegativeCest.php:chceckInvitationDataNegativeTest
