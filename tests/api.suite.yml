@@ -1,0 +1,7 @@
+actor: ApiTester
+modules:
+    enabled:
+        - REST:
+            depends: PhpBrowser
+            url: 'https://ubi2.wit.edu.pl/'
+        - \Helper\Api

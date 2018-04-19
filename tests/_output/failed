@@ -1,1 +1,1 @@
-tests/acceptance/CheckInvitationDataNegativeCest.php:chceckInvitationDataNegativeTest
+tests/api/GetUBIKIndexPageNegativeCest.php:getUBIKIndexPageNegativeTest
