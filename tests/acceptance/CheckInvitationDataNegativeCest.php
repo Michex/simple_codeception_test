@@ -1,10 +1,9 @@
 <?php
 
-
 class CheckInvitationDataNegativeCest
 {
 
-    public function chceckInvitationDataNegativeTest(\Page\IndexPage $indexPage, \Page\ContactPage $contactPage)
+    public function checkInvitationDataNegativeTest(\Page\IndexPage $indexPage, \Page\ContactPage $contactPage)
     {
         $indexPage->goToIndexPage();
         $indexPage->clickContactBtn();

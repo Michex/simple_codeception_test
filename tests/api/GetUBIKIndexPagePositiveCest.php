@@ -1,6 +1,5 @@
 <?php
 
-
 class GetUBIKIndexPagePositiveCest
 {
 
@@ -8,7 +7,6 @@ class GetUBIKIndexPagePositiveCest
     {
         $I->sendGET("https://ubi2.wit.edu.pl/");
         $I->seeResponseCodeIs(200);
-
     }
 
 }
